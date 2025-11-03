@@ -137,3 +137,9 @@ void MPU6050::update(){
   preInterval = millis();
 
 }
+
+void zeroAngles() {
+  angleGyroX = 0;
+  angleGyroY = 0;
+  angleGyroZ = 0;
+}

@@ -55,6 +55,8 @@ class MPU6050{
 
   void update();
 
+  void zeroAngles();
+
   float getAccAngleX(){ return angleAccX; };
   float getAccAngleY(){ return angleAccY; };
 
