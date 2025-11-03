@@ -138,7 +138,7 @@ void MPU6050::update(){
 
 }
 
-void zeroAngles() {
+void MPU6050::zeroAngles() {
   angleGyroX = 0;
   angleGyroY = 0;
   angleGyroZ = 0;
